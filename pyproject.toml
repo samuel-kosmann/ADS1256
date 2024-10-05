@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "ads1256"
+version = "0.1.0"
+description = "A python library to communicate with the ADS1256 analog to digital converter from Texas Instruments."
+authors = ["Samul Kosmann <samuel.kosmann@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+spidev = "^3.6"
+gpiod = "^2.2.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
