@@ -1,5 +1,3 @@
-import time
-
 import spidev
 from gpiod import LineSettings, request_lines
 from gpiod.line import Direction, Value
