@@ -97,8 +97,8 @@ class ADS1256Constants:
     CMD_STANDBY = 0xFD  # Begin standby mode
     CMD_RESET = 0xFE  # Reset to power-on values
 
-    # Master clock rate in Hz. Default is 7680000:
-    CLKIN_FREQUENCY = 7680000
+    # Master clock rate in Hz of the external oscillator. Default is 7.68 MHz:
+    CLKIN_FREQUENCY = 7_680_000
 
     # Delay between requesting data and reading data for
     # RDATA, RDATAC and RREG commands (datasheet: t_6 >= 50*CLKIN period).
